@@ -17,7 +17,7 @@
   },
   "homepage": "https://github.com/aoisupersix/b5g-example#readme",
   "dependencies": {
-    "b5g": "aoisupersix/B5G#feature/#6_support_variable_length_param",
+    "b5g": "github:aoisupersix/b5g#feature/#6_support_variable_length_param",
     "typescript": "^3.6.4"
   },
   "devDependencies": {
