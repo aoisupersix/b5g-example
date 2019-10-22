@@ -1,0 +1,29 @@
+{
+  "name": "b5g-example",
+  "version": "1.0.0",
+  "description": "b5g template generation sample",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aoisupersix/b5g-example.git"
+  },
+  "author": "aoisupersix <aoisupersix@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aoisupersix/b5g-example/issues"
+  },
+  "homepage": "https://github.com/aoisupersix/b5g-example#readme",
+  "dependencies": {
+    "b5g": "aoisupersix/B5G#feature/#6_support_variable_length_param",
+    "typescript": "^3.6.4"
+  },
+  "devDependencies": {
+    "@types/fs-extra": "^8.0.1",
+    "ts-node": "^8.4.1",
+    "tslint": "^5.20.0",
+    "tslint-config-airbnb": "^5.11.2"
+  }
+}
