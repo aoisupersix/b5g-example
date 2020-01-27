@@ -17,7 +17,7 @@
   },
   "homepage": "https://github.com/aoisupersix/b5g-example#readme",
   "dependencies": {
-    "b5g": "github:aoisupersix/b5g#feature/#6_support_variable_length_param",
+    "b5g": "github:aoisupersix/b5g#update/#34_use_to_handlebarsjs",
     "typescript": "^3.6.4"
   },
   "devDependencies": {
