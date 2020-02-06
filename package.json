@@ -17,7 +17,7 @@
   },
   "homepage": "https://github.com/aoisupersix/b5g-example#readme",
   "dependencies": {
-    "b5g": "github:aoisupersix/b5g#update/#34_use_to_handlebarsjs",
+    "b5g": "github:aoisupersix/b5g",
     "typescript": "^3.6.4"
   },
   "devDependencies": {
