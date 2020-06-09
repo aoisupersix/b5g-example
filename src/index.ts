@@ -1,4 +1,4 @@
-import { render, getDafaultMapData } from 'b5g'
+import { render, getDefaultMapData } from 'b5g'
 import * as fse from 'fs-extra'
 import path from 'path'
 
@@ -10,7 +10,7 @@ if (!fse.existsSync(outputDir)) {
     console.log(`create directory to save result: ${outputDir}`)
 }
 
-getDafaultMapData().then(mapData => {
+getDefaultMapData().then(mapData => {
     fse.writeFile(path.join(outputDir, 'mapData.json'), JSON.stringify(mapData))
     const template = fse.readFileSync(path.join(templateDir, 'astDefinition.mst'), 'utf8')
     const renderedTemplate = render(template, mapData)
